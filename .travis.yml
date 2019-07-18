@@ -7,21 +7,9 @@ script:
   - mvn test
 
 deploy:
-  - provider: heroku
+  provider: heroku
   api_key:
     secure: $HEROKU_API_KEY
   on:
     branch: production
-  app: teknikservis
-  - provider: heroku
-    api_key:
-      secure: $HEROKU_API_KEY
-  on:
-    branch: production
-    app: teknikservisproduction
-  - provider: heroku
-    api_key:
-      secure: $HEROKU_API_KEY
-    on:
-      branch: develop
-      app: teknikservisdev
+    app: teknikservis
