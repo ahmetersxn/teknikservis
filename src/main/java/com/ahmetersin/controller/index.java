@@ -12,7 +12,7 @@ public class index {
     @RequestMapping("/")
     @ResponseBody
     public String welcome() {
-        return "dev";
+        return "production";
     }
 
     @RequestMapping(value={"/pcs","/index.html"})
