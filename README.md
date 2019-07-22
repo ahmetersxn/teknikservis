@@ -99,3 +99,33 @@ Response body:
     }
 ]
 ```
+
+### GET /rest/urun
+
+Example: https://teknikservis.herokuapp.com/rest/urun
+
+Response body:
+
+```json
+
+```
+
+### GET /rest/bakim
+
+Example: https://teknikservis.herokuapp.com/rest/bakim
+
+Response body:
+
+```json
+
+```
+
+### GET /rest/calisan
+
+Example: https://teknikservis.herokuapp.com/rest/calisan
+
+Response body:
+
+```json
+
+```
