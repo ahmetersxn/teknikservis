@@ -12,6 +12,7 @@ Example: https://teknikservis.herokuapp.com/rest/musteri
 
 Response body:
 
+```json
 [
     {
         "musteriId": 1,
@@ -97,3 +98,4 @@ Response body:
         ]
     }
 ]
+```
