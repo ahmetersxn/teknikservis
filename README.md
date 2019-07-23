@@ -1,9 +1,10 @@
 [![Build Status](https://travis-ci.com/ahmetersxn/teknikservis.svg?branch=master)](https://travis-ci.com/ahmetersxn/teknikservis)
 
-# Teknik Servis / Spring Boot Projesi 
+# Teknik Servis Projesi
+# Spring Boot + Spring JPA + Maven + H2 + Travis-ci + Heroku log4j  
 
 
-# Başlanhıç Sqlleri 
+# Başlanğıç Sqlleri 
 
 ```sql
 INSERT INTO TBL_MUSTERI VALUES (1, 'Veli','konya','veli@gmail.com' ,'ali',14,0553); 
